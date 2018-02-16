@@ -1,3 +1,5 @@
 # portfolio-test
 
-Very simple and minimalist portfolio style webpage
+Very simple and minimalist portfolio style webpage!
+
+Feel free to use!
