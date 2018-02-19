@@ -16,11 +16,15 @@ body {
 	height: 100%;
 	background: #FFAB40;
 	position: fixed;
+	transition: ease-out .75s;
+	opacity: 0;
 	transform: translateY(-100%);
 }
 
 .nav-bar-shown { 
-	transform: translate(+100%); 
+	transition: ease-in .75s;
+	transform: translateY(0); 
+	opacity: 1;
 }
 
 button {
@@ -30,8 +34,10 @@ button {
     height: 50px;
     width: 50px;
     margin-bottom: 20px;
+}
 
-    
+button:focus { 
+	outline-style: none; 
 }
 
 button:hover {
@@ -67,7 +73,7 @@ button:hover::after {
 
 .page-home{
 	height: 100%;
-	background: #fff;
+	background: white;
 }
 
 .page-work{
@@ -84,5 +90,6 @@ button:hover::after {
 	border: 2px solid #FFAB40;
 	position: absolute;
 	z-index: 999;
-	margin-left: 25%;
+	margin-left: 2em;
+	margin-top: 2em;
 }
