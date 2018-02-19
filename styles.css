@@ -90,6 +90,12 @@ button:hover::after {
 	border: 2px solid #FFAB40;
 	position: absolute;
 	z-index: 999;
+<<<<<<< HEAD
 	margin-left: 2em;
 	margin-top: 2em;
 }
+=======
+	margin-left: 2%;
+	margin-top: 2%;
+}
+>>>>>>> 17b9bfc4652c56ac193622ddf0bd6a3cdf513cb7
