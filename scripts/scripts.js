@@ -21,9 +21,3 @@ $(function workButton() {
   }, 1000)
 });
 })
-
-$(function menuButton() {
-	$(".menu-button").click(function(){
-	$('.nav-bar').toggleClass("nav-bar-shown")
-});
-})
