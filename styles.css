@@ -16,15 +16,6 @@ body {
 	height: 100%;
 	background: #FFAB40;
 	position: fixed;
-	transition: ease-out .75s;
-	opacity: 0;
-	transform: translateY(-100%);
-}
-
-.nav-bar-shown { 
-	transition: ease-in .75s;
-	transform: translateY(0); 
-	opacity: 1;
 }
 
 button {
@@ -73,7 +64,7 @@ button:hover::after {
 
 .page-home{
 	height: 100%;
-	background: white;
+	background: #FFAB40;
 }
 
 .page-work{
@@ -83,7 +74,7 @@ button:hover::after {
 
 .page-about{
 	height: 100%;
-	background: #fff;
+	background: #FFAB40;
 }
 
 .menu-button {
